@@ -1,5 +1,5 @@
 /{
   aliases{
-    app-led=&led0;
+    app-led=&led0; //this app-led in C it willtake as app_led
   } ;
 };

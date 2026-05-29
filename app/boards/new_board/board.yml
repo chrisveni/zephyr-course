@@ -1,9 +1,11 @@
 board:
-  name: my_board
-  full_name: My Board 
+  name: new_board
+  full_name: My Board from scratch
   vendor: Test
   socs:
   - name: nrf54l15
     variants:
+    - name: cpuapp
+      cpucluster: cpuapp
     - name: xip
       cpucluster: cpuflpr
